@@ -31,7 +31,6 @@
 		<script src="assets/js/cookie.js"></script>
 		<script src="assets/js/particles.js"></script>
 		<script src="assets/js/app.js"></script>
-		<script src="assets/js/wow.min.js"></script>
 		<script src="assets/js/script.js"></script>
 </body>
 

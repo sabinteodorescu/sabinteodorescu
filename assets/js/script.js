@@ -41,8 +41,6 @@ $(function() {
         $('body').addClass('en');
     }
 
-    new WOW().init();
-
     $('body').addClass('loaded');
 });
 
@@ -50,12 +48,12 @@ $(window).scroll(function(){
     if ($(window).scrollTop() > 300) {
         setTimeout(function() {
             $('.up').show();
-            $(".up").addClass("wow lightSpeedIn animated");
+            $(".up").addClass("wow lightSpeedIn");
         },10);
     } else {
         setTimeout(function() {
             $('.up').hide();
-            $(".up").removeClass("wow lightSpeedIn animated");
+            $(".up").removeClass("wow lightSpeedIn");
         },10);
     }
 });
