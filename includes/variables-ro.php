@@ -53,7 +53,7 @@
 			'target' => false
 		],
 		4 => [
-			'text' => 'Contacteaza-ma',
+			'text' => 'Contact',
 			'url' => 'index.php#footer',
 			'target' => false
 		],

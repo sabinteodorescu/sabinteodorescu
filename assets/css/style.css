@@ -1,5 +1,6 @@
 body {
-	font-family: Verdana;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
 	background-color: #373737;
 	color: #fff;
 	margin: 0;
@@ -79,7 +80,6 @@ h2 {
 }
 
 p {
-	font-weight: bold;
 	padding: 15px;
 }
 
@@ -186,7 +186,6 @@ a {
 }
 
 .nav {
-	font-size: 20px;
 	position: fixed;
 	padding: 0 15px;
 	top: 0;
@@ -205,6 +204,8 @@ a {
 
 .nav li a {
 	transition: all .2s ease-in-out;
+	font-size: 18px;
+	line-height: 24px;
 }
 
 .nav li a:hover {
@@ -236,14 +237,10 @@ iframe {
 }
 
 .date {
-	font-weight: lighter;
+	font-weight: 300;
 	font-size: 15px;
 	text-align: right;
 	margin: 0;
-}
-
-.content {
-	font-weight: lighter;
 }
 
 .ann {
@@ -337,13 +334,34 @@ iframe {
 	outline: none;
 }
 
-.footer p {
-	display: inline;
-	font-weight: lighter;
+.footer ul {
 	text-align: center;
 }
 
-.footer p,
-.footer h2 {
-	color: #fff !important;
+.footer li {
+	display: inline-block;
+	margin: 0 15px;
+}
+
+.footer li a {
+	font-size: 25px;
+	transition: all .2s ease-in-out;
+}
+
+.footer li a:hover {
+	color: #F7AC20;
+}
+
+.fa-discord {
+	width: 30px;
+	height: 25px;
+	background-image: url('../img/discord.svg');
+	background-size: contain;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    line-height: 25px;
+}
+
+.fa-discord:hover {
+	background-image: url('../img/discord_orange.svg');
 }

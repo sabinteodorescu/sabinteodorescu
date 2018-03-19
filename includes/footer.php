@@ -1,11 +1,15 @@
 
 	<footer class="footer" id="footer" name="footer">
 		<div class="wrapper">
-			<h2>Contact</h2>
-			<p>E-Mail: contact@sabinteodorescu.com</p>
-			<p>Facebook: sabin.teodorescu</p>
-			<p>Twitter: @saby4k</p>
-
+			<ul>
+				<li><a href="contact@sabinteodorescu.com" target="_blank" class="fa fa-envelope"></a></li>
+				<li><a href="https://www.facebook.com/sabin.teodorescu" target="_blank" class="fa fa-facebook"></a></li>
+				<li><a href="https://www.twitter.com/saby4k" target="_blank" class="fa fa-twitter"></a></li>
+				<li><a href="https://www.youtube.com/Sabyoficial" target="_blank" class="fa fa-youtube-play"></a></li>
+				<li><a href="https://steamcommunity.com/id/saby4k" target="_blank" class="fa fa-steam"></a></li>
+				<li><a href="skype:sabin.teodorescu?chat" class="fa fa-skype"></a></li>
+				<li><a href="https://discord.gg/y7DAEFZ" target="_blank" class="fa fa-discord"></a></li>
+			</ul>
 
 
 			<?php

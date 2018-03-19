@@ -53,7 +53,7 @@
 			'target' => false
 		],
 		4 => [
-			'text' => 'Contact me',
+			'text' => 'Contact',
 			'url' => 'index.php#footer',
 			'target' => false
 		],

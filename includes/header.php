@@ -26,6 +26,7 @@
 	<meta name="keywords" content="test, saby, blog, saby blog, sabinteodorescu.com" />
 	<meta http-equiv="author" content="Sabin Teodorescu" />
 	<meta http-equiv="content-language" content="ro-ro" />
+	<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
