@@ -12,7 +12,7 @@
 
  		 gtag('config', 'UA-58486815-3');
 	</script>
-
+	
 	<title>Sabin Teodorescu</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="google-site-verification" content="9L9zJjOaB_tndilB2ldpsWl6UGYGzYcpxPR49BxLpJU" />

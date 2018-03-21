@@ -19,6 +19,7 @@ body.lightMode .settings {
 	color: #373737;
 }
 
+body.lightMode .footer li a,
 body.lightMode .post {
 	color: #fff;
 }
@@ -199,7 +200,8 @@ a {
 }
 
 .nav.open {
-	height: auto;
+	max-height: none;
+	transition: all .2s ease-in-out;
 }
 
 .nav li {
@@ -392,7 +394,9 @@ iframe {
 	.nav {
 		overflow: hidden;
 		padding: 0 5%;
-	    height: 44px;
+	    height: auto;
+	    max-height: 44px;
+	    transition: all .2s ease-in-out;
 	}
 
 	.nav li {

@@ -2,7 +2,7 @@
 	<footer class="footer" id="footer" name="footer">
 		<div class="wrapper">
 			<ul>
-				<li><a href="contact@sabinteodorescu.com" target="_blank" class="fa fa-envelope"></a></li>
+				<li><a href="mailto:contact@sabinteodorescu.com" target="_blank" class="fa fa-envelope"></a></li>
 				<li><a href="https://www.facebook.com/sabin.teodorescu" target="_blank" class="fa fa-facebook"></a></li>
 				<li><a href="https://www.twitter.com/saby4k" target="_blank" class="fa fa-twitter"></a></li>
 				<li><a href="https://www.youtube.com/Sabyoficial" target="_blank" class="fa fa-youtube-play"></a></li>
