@@ -14,6 +14,7 @@
 	</script>
 
 	<title>Sabin Teodorescu</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="google-site-verification" content="9L9zJjOaB_tndilB2ldpsWl6UGYGzYcpxPR49BxLpJU" />
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -31,7 +32,8 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
-	<nav class="nav">	
+	<nav class="nav">
+		<i class="fa fa-bars toggle-menu"></i>	
 		<ul class="navlinks">	
 			<li><a href="index.php#top"><i class="fa fa-home"></i></a></li>
 			<?php

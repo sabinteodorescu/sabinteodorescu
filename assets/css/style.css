@@ -51,6 +51,7 @@ body.lightMode *::selection {
 
 .wrapper {
 	width: 960px;
+	max-width: 90%;
 	margin: 0 auto;
 }
 
@@ -197,6 +198,10 @@ a {
 	box-shadow: 0 0 20px 0 black;
 }
 
+.nav.open {
+	height: auto;
+}
+
 .nav li {
 	float: left;
 	padding: 15px;
@@ -224,8 +229,18 @@ a {
 	float: right;
 }
 
+.toggle-menu {
+	display: none;
+    position: absolute;
+    top: 13px;
+    right: 5%;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
 iframe {
 	display: block;
+	max-width: 100%;
 	margin: 30px auto;
 }
 
@@ -364,4 +379,62 @@ iframe {
 
 .fa-discord:hover {
 	background-image: url('../img/discord_orange.svg');
+}
+
+@media screen and (max-width:900px) {
+	.nav ul,
+	.nav ul li,
+	.nav ul li a {
+		width: 100%;
+		box-sizing: border-box;
+	}
+
+	.nav {
+		overflow: hidden;
+		padding: 0 5%;
+	    height: 44px;
+	}
+
+	.nav li {
+		padding: 10px 0;
+	}
+
+	.nav .settings {
+		border-top: 1px solid #757575;
+	}
+
+	.nav .settings li {
+		width: auto;
+		margin-left: 25px;
+	}
+
+	.nav .settings li:first-child {
+		margin-left: 0;
+	}
+
+	.toggle-menu {
+		display: block;
+	}
+
+	.up {
+		display: none !important;
+	}
+}
+
+@media screen and (max-width:480px) {
+	.footer li {
+		margin: 0 5px;
+	}
+
+	.welcome {
+		width: 90%;
+	}
+
+	.welcome h1 {
+		font-size: 33px;
+	}
+
+	iframe {
+		height: 210px;
+	}
 }

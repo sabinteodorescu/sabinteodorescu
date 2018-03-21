@@ -8,10 +8,12 @@
 	require 'includes/ilives.php';
 ?>
 
-	<div class="section">
-		<?php foreach($lives as $key => $url): ?>
-			<iframe width="560" height="315" src="<?php echo $url; ?>" frameborder="0" encrypted-media" allowfullscreen></iframe>
-		<?php endforeach; ?>
+	<div class="wrapper">
+		<div class="section">
+			<?php foreach($lives as $key => $url): ?>
+				<iframe width="560" height="315" src="<?php echo $url; ?>" frameborder="0" encrypted-media" allowfullscreen></iframe>
+			<?php endforeach; ?>
+		</div>
 	</div>
 
 <?php require 'includes/footer.php'; ?>

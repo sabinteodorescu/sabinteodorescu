@@ -33,6 +33,10 @@ $(function() {
         location.reload();
     });
 
+    $(".toggle-menu").click(function() {
+        $(".nav").toggleClass("open");
+    })
+
     if($.cookie('theme') == 'white') {
         $('body').addClass('lightMode');
     }
