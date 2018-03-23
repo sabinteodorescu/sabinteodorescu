@@ -135,6 +135,7 @@ ul {
 	text-decoration: none;
 	margin-top: 20px;
 	display: inline-block;
+	outline: none;
 }
 
 a {
@@ -165,6 +166,29 @@ iframe {
 
 	.videos {
 		text-align: center;
+	}
+
+	.title {
+		text-align: center;
+		margin: 0;
+		padding: 0;
+		text-decoration: none;
+	}
+
+	.date {
+		font-weight: 300;
+		font-size: 15px;
+		text-align: right;
+		margin: 0;
+	}
+
+	.post {
+		background-color: #4B4B4B;
+		border-radius: 5px;
+	}
+
+	.postDivider {
+		margin-top: 20px;
 	}
 
 /* *******************
@@ -298,35 +322,6 @@ iframe {
     right: 5%;
     font-size: 20px;
     box-sizing: border-box;
-}
-
-/* *******************
-	
-	~posts
-
-	******************* */
-
-.title {
-	text-align: center;
-	margin: 0;
-	padding: 0;
-	text-decoration: none;
-}
-
-.date {
-	font-weight: 300;
-	font-size: 15px;
-	text-align: right;
-	margin: 0;
-}
-
-.post {
-	background-color: #4B4B4B;
-	border-radius: 5px;
-}
-
-.postDivider {
-	margin-top: 20px;
 }
 
 /* *******************
