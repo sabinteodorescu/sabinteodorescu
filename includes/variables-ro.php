@@ -12,7 +12,7 @@
 		'url' => 'lives.php'
 	];
 	$aboutTitle = 'Despre Mine';
-	$aboutText = 'Numele meu este Sabin si am 11 ani. Am un canal de YouTube in care fac videoclipuri cu gaming, si tutoriale (mai rar). Imi place sa joc multe jocuri si sa incerc unele noi. Acest site este un proiect ca sa imi testez "skill-urile" de programat si sa am un blog pentru canalul meu de YouTube.';
+	$aboutText = 'Numele meu este Sabin si am 11 ani. Am un canal de YouTube pe care fac videoclipuri cu gaming. Imi place sa joc multe jocuri si sa incerc unele noi. Acest site este un proiect ca sa imi testez skill-urile de programat si sa am un blog pentru canalul meu de YouTube.';
 	$lastVideo = 'Ultimul videoclip';
 	$lastLive = 'Ultimul live';
 	$formName = 'Nume:';
@@ -23,7 +23,7 @@
 		0 => [
 			'date' => '19 ian. 2018',
 			'title' => 'Blog',
-			'content' => 'Am facut un nou blog pe care o sa pun noile videoclipuri si postarile ca sa va tin la curent! Dati subscribe la canalul meu de YouTube daca nu ati facut-o inca (desigur nu sunteti obligati).'
+			'content' => 'Am facut un nou blog pe care o sa pun noile videoclipuri si postarile ca sa va tin la curent!'
 		],
 		1 => [
 			'date' => '8 mar. 2018',

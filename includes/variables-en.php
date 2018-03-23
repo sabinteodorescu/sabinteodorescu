@@ -12,7 +12,7 @@
 		'url' => 'lives.php'
 	];
 	$aboutTitle = 'About Me';
-	$aboutText = 'My name is Sabin and i\'m 11 years old. I have a YouTube channel on which I record gaming videos, and tutorials (more rarely). I like playing a lot of games and trying new ones. This site is a project to test my programming skills and to have a YouTube channel blog of mine.';
+	$aboutText = 'My name is Sabin and i\'m 11 years old. I have a YouTube channel on which I record gaming videos. I like playing a lot of games and trying new ones. This site is a project to test my programming skills and to have a YouTube channel blog of mine.';
 	$lastVideo = 'Latest video';
 	$lastLive = 'Latest live';
 	$formName = 'Name:';
@@ -23,7 +23,7 @@
 		0 => [
 			'date' => '19 jan. 2018',
 			'title' => 'Blog',
-			'content' => 'I\'ve made a new blog on which i will put my new videos and posts to keep you updated! Subscribe to my YouTube channel if you haven\'t yet. (you\'re not forced to do it, of course).'
+			'content' => 'I\'ve made a new blog on which i will put my new videos and posts to keep you updated!'
 		],
 		1 => [
 			'date' => '8 mar. 2018',
