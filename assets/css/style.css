@@ -1,3 +1,9 @@
+/* *******************
+	
+	~body
+
+	******************* */
+
 body {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 400;
@@ -5,6 +11,16 @@ body {
 	color: #fff;
 	margin: 0;
 }
+
+*::selection {
+	background-color: #000;
+}
+
+/* *******************
+	
+	~body-lightmode
+
+	******************* */
 
 body.lightMode,
 body.lightMode .nav,
@@ -24,10 +40,6 @@ body.lightMode .post {
 	color: #fff;
 }
 
-*::selection {
-	background-color: #000;
-}
-
 body.lightMode *::selection {
 	background-color: #ccc;
 }
@@ -36,6 +48,22 @@ body.lightMode *::selection {
     content: "";
     clear: both;
     display: table;
+}
+
+/* *******************
+	
+	~header
+
+	******************* */
+
+#top {
+	position: absolute;
+	top: 0;
+	bottom: 100%;
+	left: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
 }
 
 .hero {
@@ -48,12 +76,6 @@ body.lightMode *::selection {
 	box-shadow: 0 0 20px 0;
 	color: #000;
 	position: relative;
-}
-
-.wrapper {
-	width: 960px;
-	max-width: 90%;
-	margin: 0 auto;
 }
 
 .welcome {
@@ -74,6 +96,18 @@ body.lightMode *::selection {
 	font-size: 35px;
 	margin: 0;
 }
+
+.wrapper {
+	width: 960px;
+	max-width: 90%;
+	margin: 0 auto;
+}
+
+/* *******************
+	
+	~basic
+
+	******************* */
 
 h2 {
 	font-size: 25px;
@@ -109,15 +143,35 @@ a {
 	font-size: 20px;
 }
 
-.up {
-	padding: 20px;
-	background: rgba(0, 0, 0, 0.8);
-	position: fixed;
-	right: 30px;
-	bottom: 50px;
-	border-radius: 10px;
-	display: none;
+iframe {
+	display: block;
+	max-width: 100%;
+	margin: 30px auto;
 }
+
+/* *******************
+	
+	~sections
+
+	******************* */
+
+	.about {
+		text-align: center;
+	}
+
+	.section {
+		padding-top: 54px;
+	}
+
+	.videos {
+		text-align: center;
+	}
+
+/* *******************
+	
+	~animations
+
+	******************* */
 
 .lightSpeedIn {
     -webkit-animation-name: lightSpeedIn;
@@ -187,6 +241,12 @@ a {
 	color: #fff;
 }
 
+/* *******************
+	
+	~nav
+
+	******************* */
+
 .nav {
 	position: fixed;
 	padding: 0 15px;
@@ -240,11 +300,11 @@ a {
     box-sizing: border-box;
 }
 
-iframe {
-	display: block;
-	max-width: 100%;
-	margin: 30px auto;
-}
+/* *******************
+	
+	~posts
+
+	******************* */
 
 .title {
 	text-align: center;
@@ -260,45 +320,20 @@ iframe {
 	margin: 0;
 }
 
-.ann {
-	margin-top: 20px;
-}
-
 .post {
 	background-color: #4B4B4B;
 	border-radius: 5px;
 }
 
-.about {
-	text-align: center;
+.postDivider {
+	margin-top: 20px;
 }
 
-.section {
-	padding-top: 54px;
-}
+/* *******************
+	
+	~footer
 
-.loading {
-	position: absolute;
-	top: 65%;
-	left: 38.5%;
-	z-index: 1001;
-	text-decoration: none;
-	color: #fff;
-}
-
-.videos {
-	text-align: center;
-}
-
-#top {
-	position: absolute;
-	top: 0;
-	bottom: 100%;
-	left: 0;
-	right: 0;
-	margin: 0;
-	padding: 0;
-}
+	******************* */
 
 .footer {
 	background-color: #333;
@@ -382,6 +417,22 @@ iframe {
 .fa-discord:hover {
 	background-image: url('../img/discord_orange.svg');
 }
+
+.up {
+	padding: 20px;
+	background: rgba(0, 0, 0, 0.8);
+	position: fixed;
+	right: 30px;
+	bottom: 50px;
+	border-radius: 10px;
+	display: none;
+}
+
+/* *******************
+	
+	~responsive
+
+	******************* */
 
 @media screen and (max-width:900px) {
 	.nav ul,

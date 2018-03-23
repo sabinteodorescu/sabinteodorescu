@@ -18,12 +18,12 @@
 	$formName = 'Name:';
 	$formMessage = 'Message:';
 	$formSubmit = 'Send';
-	$announcementsTitle = 'Announcements';
-	$announcements =  array_reverse([
+	$postTitle = 'Posts';
+	$posts =  array_reverse([
 		0 => [
 			'date' => '19 jan. 2018',
 			'title' => 'Blog',
-			'content' => 'I\'ve made a new blog on which i will post my new videos and announcements! Subscribe to my YouTube channel if you haven\'t yet. (you\'re not forced to do it, of course).'
+			'content' => 'I\'ve made a new blog on which i will put my new videos and posts to keep you updated! Subscribe to my YouTube channel if you haven\'t yet. (you\'re not forced to do it, of course).'
 		],
 		1 => [
 			'date' => '8 mar. 2018',
@@ -48,8 +48,8 @@
 			'target' => false
 		],
 		3 => [
-			'text' => 'Announcements',
-			'url' => 'index.php#ann',
+			'text' => 'Posts',
+			'url' => 'index.php#posts',
 			'target' => false
 		],
 		4 => [

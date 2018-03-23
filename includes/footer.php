@@ -1,4 +1,3 @@
-
 	<footer class="footer" id="footer" name="footer">
 		<div class="wrapper">
 			<ul>

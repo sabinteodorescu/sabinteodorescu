@@ -18,12 +18,12 @@
 	$formName = 'Nume:';
 	$formMessage = 'Mesaj:';
 	$formSubmit = 'Trimite';
-	$announcementsTitle = 'Anunturi';
-	$announcements =  array_reverse([
+	$postTitle = 'Postari';
+	$posts =  array_reverse([
 		0 => [
 			'date' => '19 ian. 2018',
 			'title' => 'Blog',
-			'content' => 'Am facut un nou blog pe care o sa postez noile videoclipuri si anunturile! Dati subscribe la canalul meu de YouTube daca nu ati facut-o inca (desigur nu sunteti obligati).'
+			'content' => 'Am facut un nou blog pe care o sa pun noile videoclipuri si postarile ca sa va tin la curent! Dati subscribe la canalul meu de YouTube daca nu ati facut-o inca (desigur nu sunteti obligati).'
 		],
 		1 => [
 			'date' => '8 mar. 2018',
@@ -48,8 +48,8 @@
 			'target' => false
 		],
 		3 => [
-			'text' => 'Anunturi',
-			'url' => 'index.php#ann',
+			'text' => 'Postari',
+			'url' => 'index.php#posts',
 			'target' => false
 		],
 		4 => [

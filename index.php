@@ -31,15 +31,14 @@
 			<a href="<?php echo $livesLink['url']; ?>" class="button"><?php echo $livesLink['text']; ?></a>
 		</div>
 
-		<div class="ann section" name="ann" id="ann">
-		<!-- NEW ANNOUNCEMENTS GO UP -->
-			<h2><?php echo $announcementsTitle ?></h2>
+		<div class="postDivider section" name="posts" id="posts">
+			<h2><?php echo $postTitle ?></h2>
 			<?php
-			foreach($announcements as $key => $ann) { ?>
+			foreach($posts as $key => $post) { ?>
 				<div class="post">
-					<p class="date"><?php echo $ann['date']; ?></p>
-					<h2 class="title"><?php echo $ann['title']; ?></h2>
-					<p class="content"><?php echo $ann['content']; ?></p>
+					<p class="date"><?php echo $post['date']; ?></p>
+					<h2 class="title"><?php echo $post['title']; ?></h2>
+					<p class="content"><?php echo $post['content']; ?></p>
 				</div>
 			<?php } ?>
 		</div>
