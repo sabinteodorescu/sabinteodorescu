@@ -34,7 +34,7 @@ $(function() {
     });
 
     $(".toggle-menu").click(function() {
-        $(".nav").toggleClass("open");
+        $(".navlists").toggleClass("open");
     })
 
     if($.cookie('theme') == 'white') {

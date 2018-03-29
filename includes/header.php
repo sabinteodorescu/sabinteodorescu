@@ -33,18 +33,21 @@
 </head>
 
 	<nav class="nav">
+		<a href="index.php#top"><i class="fa fa-home"></i></a>
 		<i class="fa fa-bars toggle-menu"></i>	
-		<ul class="navlinks">	
-			<li><a href="index.php#top"><i class="fa fa-home"></i></a></li>
-			<?php
-				foreach($menu as $key => $value) { ?>
-					<li><a href="<?php echo $value['url']; ?>" <?php if($value['target'] == true) echo 'target="_blank"'; ?>><?php echo $value['text']; ?></a></li>
-			<?php } ?>
-		</ul>
-		<ul class="settings">
-			<li><a href="#" class="lmbutton"><i class="fa fa-lightbulb-o"></i></a></li>
-			<li><a href="#" class="enbutton"><img src="assets/img/<?php echo $language; ?>.svg" alt="Ro"></a></li>	
-		</ul>
+		<div class="navlists cf">
+			<ul class="navlinks">	
+				<li><a href="index.php#top"><i class="fa fa-home"></i></a></li>
+				<?php
+					foreach($menu as $key => $value) { ?>
+						<li><a href="<?php echo $value['url']; ?>" <?php if($value['target'] == true) echo 'target="_blank"'; ?>><?php echo $value['text']; ?></a></li>
+				<?php } ?>
+			</ul>
+			<ul class="settings">
+				<li><a href="#" class="lmbutton"><i class="fa fa-lightbulb-o"></i></a></li>
+				<li><a href="#" class="enbutton"><img src="assets/img/<?php echo $language; ?>.svg" alt="Ro"></a></li>	
+			</ul>
+		</div>
 	</nav>
 
 	<div name="top"></div>
