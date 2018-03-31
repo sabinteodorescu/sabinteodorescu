@@ -31,6 +31,7 @@
 		<a class="up wow lightSpeedIn" href="#top"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
 			
 		<script src="assets/js/jquery.js"></script>
+		<script src="assets/js/jquery.lazy.min.js"></script>
 		<script src="assets/js/cookie.js"></script>
 		<script src="assets/js/particles.js"></script>
 		<script src="assets/js/app.js"></script>

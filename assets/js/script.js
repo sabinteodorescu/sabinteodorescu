@@ -45,7 +45,16 @@ $(function() {
         $('body').addClass('en');
     }
 
-    $('body').addClass('loaded');
+    $(function() {
+        $('.lazy').Lazy({
+            scrollDirection: 'vertical',
+            effect: 'fadeIn',
+            visibleOnly: true,
+            onError: function(element) {
+                console.log('error loading ' + element.data('src'));
+            }
+        });
+    });
 });
 
 $(window).scroll(function(){
