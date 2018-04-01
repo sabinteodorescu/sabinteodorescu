@@ -150,50 +150,50 @@ iframe {
 	margin: 30px auto;
 }
 
+*::selection {
+	background-color: #000;
+}
+
 /* *******************
 	
 	~sections
 
 	******************* */
 
-	.about {
-		text-align: center;
-	}
+.about {
+	text-align: center;
+}
 
-	.section {
-		padding-top: 54px;
-	}
+.section {
+	padding-top: 54px;
+}
 
-	.videos {
-		text-align: center;
-	}
+.videos {
+	text-align: center;
+}
 
-	.title {
-		text-align: center;
-		margin: 0;
-		padding: 0;
-		text-decoration: none;
-	}
+.title {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
 
-	.date {
-		font-weight: 300;
-		font-size: 15px;
-		text-align: right;
-		margin: 0;
-	}
+.date {
+	font-weight: 300;
+	font-size: 15px;
+	text-align: right;
+	margin: 0;
+}
 
-	.post {
-		background-color: #4B4B4B;
-		border-radius: 5px;
-	}
+.post {
+	background-color: #4B4B4B;
+	border-radius: 5px;
+}
 
-	.postDivider {
-		margin-top: 20px;
-	}
-
-	*::selection {
-		background-color: #000;
-	}
+.postDivider {
+	margin-top: 20px;
+}
 
 /* *******************
 	
