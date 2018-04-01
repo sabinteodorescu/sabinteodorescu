@@ -12,10 +12,6 @@ body {
 	margin: 0;
 }
 
-*::selection {
-	background-color: #000;
-}
-
 /* *******************
 	
 	~body-lightmode
@@ -193,6 +189,10 @@ iframe {
 
 	.postDivider {
 		margin-top: 20px;
+	}
+
+	*::selection {
+		background-color: #000;
 	}
 
 /* *******************
