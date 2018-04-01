@@ -40,6 +40,10 @@ body.lightMode .post {
 	color: #fff;
 }
 
+body.lightMode .footer li a:hover {
+	color: #F7AC20;
+}
+
 body.lightMode *::selection {
 	background-color: #ccc;
 }
@@ -340,6 +344,10 @@ iframe {
 .footer {
 	background-color: #333;
 	padding: 50px 0;
+}
+
+.footer ul {
+	font-size: 0;
 }
 
 .footer form {
