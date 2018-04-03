@@ -29,6 +29,11 @@
 			'date' => '8 mar. 2018',
 			'title' => 'Domain',
 			'content' => 'This site is officially on the internet now, getting it as a gift for my birthday, today. I have turned 11 years old.'
+		],
+		2 => [
+			'date' => '3 apr. 2018',
+			'title' => 'Live',
+			'content' => 'We\'re going to be live today at 21:15 !!! We\'re going to play Clash Royale with Stefan today. Don\'t forget to check out his channel that i\'ve put in the description!'
 		]
 	]);
 	$menu = [

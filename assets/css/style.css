@@ -313,6 +313,10 @@ iframe {
 	margin-left: 5%;
 }
 
+.navlists {
+	height: 54px;
+}
+
 .navlists.open {
 	max-height: calc(100vh - 44px);
 	transition: all .2s ease-in-out;
