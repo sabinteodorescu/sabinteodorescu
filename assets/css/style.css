@@ -14,13 +14,13 @@ body {
 
 /* *******************
 	
-	~body-lightmode
+	~lightmode
 
 	******************* */
 
 body.lightMode,
 body.lightMode .nav,
-body.lightMode .settings-submenu {
+body.lightMode .navlists {
 	background-color: #fff;
 }
 
@@ -490,6 +490,10 @@ iframe {
 		transition: all .2s ease-in-out;
 		width: 100%;
 		box-sizing: border-box;
+	}
+
+	body.lightMode .navlists {
+		background-color: #fff;
 	}
 
 	.toggle-menu {

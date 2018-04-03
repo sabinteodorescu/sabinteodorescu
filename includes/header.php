@@ -45,7 +45,7 @@
 			</ul>
 			<ul class="settings">
 				<li><a href="#" class="lmbutton"><i class="fa fa-lightbulb-o"></i></a></li>
-				<li><a href="#" class="enbutton"><img src="assets/img/<?php echo $language; ?>.svg" alt="Ro"></a></li>	
+				<li><a href="#" class="enbutton"><img src="assets/img/<?php echo $language; ?>.svg" alt="<?php echo $language; ?>"></a></li>	
 			</ul>
 		</div>
 	</nav>
