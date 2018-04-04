@@ -8,8 +8,7 @@
 		4 => 'https://www.youtube.com/embed/D-sJ2UpPpAI?rel=0',
 		5 => 'https://www.youtube.com/embed/zaddequd8ps?rel=0',
 		6 => 'https://www.youtube.com/embed/eUasTaXXi54?rel=0',
-		7 => 'https://www.youtube.com/embed/8qYcGp76LPc?rel=0',
-		8 => 'https://www.youtube.com/embed/GUtO9UlVLSs?rel=0'
+		7 => 'https://www.youtube.com/embed/8qYcGp76LPc?rel=0'
 	]);
 
 ?>
