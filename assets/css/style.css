@@ -278,7 +278,6 @@ iframe {
 
 .nav {
 	position: fixed;
-	padding: 0 15px;
 	top: 0;
 	left: 0;
 	right: 0;
@@ -463,7 +462,6 @@ iframe {
 	}
 
 	.nav {
-		padding: 0;
 	    height: auto;
 	}
 
