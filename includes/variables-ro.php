@@ -19,7 +19,7 @@
 	$formMessage = 'Mesaj:';
 	$formSubmit = 'Trimite';
 	$postTitle = 'Postari';
-	$posts =  array_reverse([
+	$posts = array_reverse([
 		0 => [
 			'date' => '19 ian. 2018',
 			'title' => 'Blog',

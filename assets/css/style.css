@@ -10,6 +10,7 @@ body {
 	background-color: #373737;
 	color: #fff;
 	margin: 0;
+	transition: all .2s linear;
 }
 
 /* *******************
@@ -285,17 +286,32 @@ iframe {
 	background-color: #333;
 	z-index: 1000;
 	box-shadow: 0 0 20px 0 black;
+	transition: all .2s linear;
+}
+
+.navlists {
+	transition: all .2s linear;
+}
+
+.navlists.open {
+	max-height: calc(100vh - 44px);
+	transition: all .2s linear;
+	overflow-y: auto;
 }
 
 .nav li {
 	float: left;
-	padding: 15px;
+	padding: 15px 15px 9px 15px;
 }
 
 .nav li a {
-	transition: all .2s ease-in-out;
+	transition: all .2s linear;
 	font-size: 18px;
 	line-height: 24px;
+}
+
+.nav li i {
+	transition: all .2s linear;
 }
 
 .nav li a:hover {
@@ -311,16 +327,6 @@ iframe {
 	float: left;
 	line-height: 44px;
 	margin-left: 5%;
-}
-
-.navlists {
-	height: 54px;
-}
-
-.navlists.open {
-	max-height: calc(100vh - 44px);
-	transition: all .2s ease-in-out;
-	overflow-y: auto;
 }
 
 .navlinks {
@@ -411,7 +417,7 @@ iframe {
 
 .footer li a {
 	font-size: 25px;
-	transition: all .2s ease-in-out;
+	transition: all .2s linear;
 }
 
 .footer li a:hover {
@@ -491,7 +497,7 @@ iframe {
 		overflow: hidden;
 		background-color: #333;
 		padding: 0 5%;
-		transition: all .2s ease-in-out;
+		transition: all .2s linear;
 		width: 100%;
 		box-sizing: border-box;
 	}

@@ -19,7 +19,7 @@
 	$formMessage = 'Message:';
 	$formSubmit = 'Send';
 	$postTitle = 'Posts';
-	$posts =  array_reverse([
+	$posts = array_reverse([
 		0 => [
 			'date' => '19 jan. 2018',
 			'title' => 'Blog',

@@ -27,7 +27,7 @@
 
 		<div id="lives" name="lives" class="videos section">
 			<h2><?php echo $lastLive ?></h2>
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/8qYcGp76LPc?rel=0" frameborder="0" encrypted-media" allowfullscreen></iframe>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/GUtO9UlVLSs?rel=0" frameborder="0" encrypted-media" allowfullscreen></iframe>
 			<a href="<?php echo $livesLink['url']; ?>" class="button"><?php echo $livesLink['text']; ?></a>
 		</div>
 
