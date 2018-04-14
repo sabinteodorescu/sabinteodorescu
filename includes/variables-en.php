@@ -34,6 +34,11 @@
 			'date' => '3 apr. 2018',
 			'title' => 'Live',
 			'content' => 'We\'re going to be live today at 21:15 !!! We\'re going to play Clash Royale with Stefan today. Don\'t forget to check out his channel that i\'ve put in the description!'
+		],
+		3 => [
+			'date' => '14 apr. 2018',
+			'title' => 'Live',
+			'content' => 'I\'m going to be live today at 20:00! I\'m going to play Clash Royale, pushing into 4000 trophies this evening.'
 		]
 	]);
 	$menu = [

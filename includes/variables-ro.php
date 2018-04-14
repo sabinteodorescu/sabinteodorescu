@@ -34,6 +34,11 @@
 			'date' => '3 apr. 2018',
 			'title' => 'Live',
 			'content' => 'Facem un live nou astazi la ora 21:15 !!! Jucam Clash Royale cu Stefan de data asta, nu uitati sa intrati pe canalul lui pe care l-am lasat in descriere!'
+		],
+		3 => [
+			'date' => '14 apr. 2018',
+			'title' => 'Live',
+			'content' => 'Voi fi live azi la 20:00! Voi juca Clash Royale, pushand in 4000 de trofee seara asta.'
 		]
 	]);
 	$menu = [
